@@ -1,11 +1,12 @@
-# Deploy `json-server` to `{{ free hosting site }}`
+# Deploy `json-server` para `{{ Hospedagens gratuita }}`
 
-> Instructions how to deploy the full fake REST API [json-server](https://github.com/typicode/json-server) to various free hosting sites. Should only be used in development purpose but can act as a simpler database for smaller applications.
 
-* [**Create your database**](#create-your-database)
-* [Deploy to **Heroku**](#deploy-to-heroku)
-* [Deploy to **Glitch**](#deploy-to-glitch)
-* [Deploy to **Azure**](#deploy-to-azure)
+> Instruções para fazer o deploy de uma fake REST API [json-server](https://github.com/typicode/json-server) para vários host gratuitos. Deve ser usado apenas para fins de desenvolvimento, mas pode atuar como um banco de dados mais simples para aplicativos menores.
+
+* [**Criando sua base de dados**](#criar)
+* [Deploy to **Vercel**](#deploy-to-vercel)
+
+## EM CONSTRUÇÃO ##
 
 ## Create your database
 
