@@ -29,7 +29,7 @@ _Abaixo o exemplo do arquivo db.json com a rota /post e o seu conteúdo tem um `
 ```
 
 ---
-## Deploy para Vercel
+## Deploy para Vercel  <img align="right" width="100px" height="auto" src="https://logovtor.com/wp-content/uploads/2020/10/vercel-inc-logo-vector.png" alt="vercel">
 
 Para hospedar na Vercel será necessário criar um arquivo de configuração chamado `vercel.json` com o seguinte código:
 
@@ -63,7 +63,7 @@ Para hospedar na Vercel será necessário criar um arquivo de configuração cha
 7. Coloque um nome para o seu projeto e clique em **Deploy**.
 
 
-## EM CONSTRUÇÃO / Teste ##
+## EM CONSTRUÇÃO: SERÁ TESTADO AS HOSPEDAGENS ABAIXO E REALIZADA A TRADUÇÃO DO TEXTO. ##
 
 ## Deploy to **Heroku**
 
