@@ -6,17 +6,16 @@
 * [**Criando sua base de dados**](#criar)
 * [Deploy to **Vercel**](#deploy-to-vercel)
 
-## EM CONSTRUÇÃO ##
 
-## Create your database
 
-1. Press the green `Use this template`-button in the right corner
-2. Give your new repo a name and press the green `Create repository from template`-button
-3. Clone your newly created repository to your computer
+## Criando sua base de dados
 
-4 . Change the contents of `db.json` to **your own content** according to the [`json-server example`](https://github.com/typicode/json-server#example) and then `commit` your changes to git locally.
+1. Clique no botão code deste repositório e baixe os arquivos para a pasta do seu projeto no seu computador.
+2. Altere o arquivo `db.json` e coloque as informações de acordo com o seu projeto.
 
-_this example will create `/posts` route , each resource will have `id`, `title` and `content`. `id` will auto increment!_
+
+_Abaixo o exemplo do arquivo db.json com a rota /post e o seu conteúdo tem um `id`, `title`, e `content`._
+
 ```json
 {
   "posts":[
@@ -30,6 +29,41 @@ _this example will create `/posts` route , each resource will have `id`, `title`
 ```
 
 ---
+## Deploy para Vercel
+
+Para hospedar na Vercel será necessário criar um arquivo de configuração chamado `vercel.json` com o seguinte código:
+
+```json
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["db.json"]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}
+```
+
+1. Registre-se na [Vercel](https://vercel.com/)
+2. Clique em **Add New**
+3. Clique em  **Project**
+4. Em **Import Git Repository**, clique **add Github Account**.
+5. Selecione o seu repositório.
+6. Clicque em importar.
+7. Coloque um nome para o seu projeto e clique em **Deploy**.
+
+
+## EM CONSTRUÇÃO / Teste ##
 
 ## Deploy to **Heroku**
 
