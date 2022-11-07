@@ -1,4 +1,4 @@
-# Deploy `json-server` para `{{ Hospedagens gratuita }}`
+# Deploy `json-server` para `Hospedagens gratuita`
 
 
 > Instruções para fazer o deploy de uma fake REST API [json-server](https://github.com/typicode/json-server) para vários host gratuitos. Deve ser usado apenas para fins de desenvolvimento, mas pode atuar como um banco de dados mais simples para aplicativos menores.
