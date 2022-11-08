@@ -3,6 +3,7 @@
 
 > Instruções para fazer o deploy de uma fake REST API [json-server](https://github.com/typicode/json-server) para vários host gratuitos. Deve ser usado apenas para fins de desenvolvimento, mas pode atuar como um banco de dados mais simples para aplicativos menores.
 
+**Documentação do Json-server:** [json-server](https://github.com/typicode/json-server)
 * [**Criando sua base de dados**](#criar)
 * [Deploy to **Vercel**](#deploy-to-vercel)
 
@@ -63,21 +64,24 @@ Para hospedar na Vercel será necessário criar um arquivo de configuração cha
 7. Coloque um nome para o seu projeto e clique em **Deploy**.
 
 
+
+
+
+## Deploy to **Heroku** <img align="right" width="100px" height="auto" src="https://cdn.worldvectorlogo.com/logos/heroku-1.svg" alt="Heroku">
+
 ## EM CONSTRUÇÃO ##
 
 <!--
-## Deploy to **Heroku**
 
-<img align="right" width="100px" height="auto" src="https://cdn.worldvectorlogo.com/logos/heroku.svg" alt="Heroku">
 
 Heroku is a free hosting service for hosting small projects. Easy setup and deploy from the command line via _git_.
 
 ###### Pros
 
-* Easy setup
-* Free
+* Facil configuração
+* Hospedagem gratuita
 
-###### Cons
+###### Contra
 
 * App has to sleep a couple of hours every day.
 * "Powers down" after 30 mins of inactivity. Starts back up when you visit the site but it takes a few extra seconds. Can maybe be solved with [**Kaffeine**](http://kaffeine.herokuapp.com/)
