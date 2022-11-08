@@ -1,4 +1,4 @@
-{[
+{
   "posts":[
     {
       "id" : 0,
@@ -12,5 +12,5 @@
       "content" : "My first content!"
     }
   ]
-]
+
 }
