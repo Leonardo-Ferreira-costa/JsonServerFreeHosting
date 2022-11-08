@@ -5,8 +5,8 @@
 
 **Documentação do Json-server:** [json-server](https://github.com/typicode/json-server)
 * [**Criando sua base de dados**](#criar)
-* - [x] [Deploy para **Vercel**](#deploy-para-vercel)
-* - [ ] [Deploy para **Heroku**](#deploy-para-Heroku)
+* - [x] [Deploy para **Vercel**](#deploy-para-vercel--)
+* - [ ] [Deploy para **Heroku**](#deploy-para-heroku-)
 
 
 ## Criando sua base de dados
@@ -66,7 +66,7 @@ Para hospedar na Vercel será necessário criar um arquivo de configuração cha
 
 
 
-
+---
 ## Deploy para **Heroku** <img align="right" width="100px" height="auto" src="https://cdn.worldvectorlogo.com/logos/heroku-1.svg" alt="Heroku">
 
 Heroku é uma hospedagem grauita para pequenos projetos. Fácil configuração e deploy pelo terminal usando o _git_.
