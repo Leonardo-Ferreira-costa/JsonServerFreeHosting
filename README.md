@@ -67,14 +67,9 @@ Para hospedar na Vercel será necessário criar um arquivo de configuração cha
 
 
 
-## Deploy to **Heroku** <img align="right" width="100px" height="auto" src="https://cdn.worldvectorlogo.com/logos/heroku-1.svg" alt="Heroku">
+## Deploy para **Heroku** <img align="right" width="100px" height="auto" src="https://cdn.worldvectorlogo.com/logos/heroku-1.svg" alt="Heroku">
 
-## EM CONSTRUÇÃO ##
-
-<!--
-
-
-Heroku is a free hosting service for hosting small projects. Easy setup and deploy from the command line via _git_.
+Heroku é uma hospedagem grauita para pequenos projetos. Fácil configuração e deploy pelo terminal usando o _git_.
 
 ###### Pros
 
@@ -83,46 +78,47 @@ Heroku is a free hosting service for hosting small projects. Easy setup and depl
 
 ###### Contra
 
-* App has to sleep a couple of hours every day.
-* "Powers down" after 30 mins of inactivity. Starts back up when you visit the site but it takes a few extra seconds. Can maybe be solved with [**Kaffeine**](http://kaffeine.herokuapp.com/)
+* A aplicação tem que ficar um periodo inativa durante o dia.
+* "Desliga" depois de 30 minutos de inatividade. Inicia automáticamente quando um usuário visita, porém demora alguns segundos. Isso pode ser resolvido com uma aplicação chamada [**Kaffeine**](http://kaffeine.herokuapp.com/)
 
 ---
 
-### Install Heroku
+### Utilizando o Heroku
 
-1 . [Create your database](#create-your-database)
+1 . [Crie sua base de dados](#create-your-database)
 
-2 . Create an account on <br/>[https://heroku.com](https://heroku.com)
+2 . Crie uma conta em <br/>[https://heroku.com](https://heroku.com)
 
-3 . Install the Heroku CLI on your computer: <br/>[https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
+3 . Instalar o Heroku CLI no seu computador: <br/>[https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
 
-4 . Connect the Heroku CLI to your account by writing the following command in your terminal and follow the instructions on the command line:
+4 . Conecte o Heroku CLI na sua conta escrevendo o comando no seu terminal e seguindo as instruções:
 ```bash
 heroku login
 ```
 
-5 . Then create a remote heroku project, kinda like creating a git repository on GitHub. This will create a project on Heroku with a random name. If you want to name your app you have to supply your own name like `heroku create project-name`:
+5 . Digite o comando para criar o seu projeto digitando no terminal `heroku create NomeDoProjeto`:
 ```bash
-heroku create my-cool-project
+heroku create my-project
 ```
 
-6 . Push your app to __Heroku__ (you will see a wall of code)
+6 . Faça o Push do seu app para __Heroku__ (Você vai ver uma tela cheia de codigos):
 ```bash
 git push heroku master
 ```
 
-7 . Visit your newly create app by opening it via heroku:
+7 . Para visitar o seu projeto recem criado digite o seguinte comando:
 ```bash
 heroku open
 ```
 
-8 . For debugging if something went wrong:
+8 . Para depurar se algo deu errado:
 ```bash
 heroku logs --tail
 ```
 
 ---
-
+## EM CONSTRUÇÃO... .. .
+<!--
 #### How it works
 
 Heroku will look for a startup-script, this is by default `npm start` so make sure you have that in your `package.json` (assuming your script is called `server.js`):
