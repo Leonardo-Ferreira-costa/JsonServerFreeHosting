@@ -63,8 +63,9 @@ Para hospedar na Vercel será necessário criar um arquivo de configuração cha
 7. Coloque um nome para o seu projeto e clique em **Deploy**.
 
 
-## EM CONSTRUÇÃO: SERÁ TESTADO AS HOSPEDAGENS ABAIXO E REALIZADA A TRADUÇÃO DO TEXTO. ##
+## EM CONSTRUÇÃO ##
 
+<!--
 ## Deploy to **Heroku**
 
 <img align="right" width="100px" height="auto" src="https://cdn.worldvectorlogo.com/logos/heroku.svg" alt="Heroku">
@@ -209,4 +210,6 @@ You should be prompted to supply a password, this should be the pass to your acc
 
 Choose **App Services** in the sidebar to the left and the choose your app in the list that appears then go to **Deployment Credentials** to change your password for deployment:<br>
 https://docs.microsoft.com/en-us/azure/app-service/app-service-deployment-credentials
+
+-->
 
