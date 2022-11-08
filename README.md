@@ -5,8 +5,8 @@
 
 **Documentação do Json-server:** [json-server](https://github.com/typicode/json-server)
 * [**Criando sua base de dados**](#criar)
-* [Deploy to **Vercel**](#deploy-to-vercel)
-
+* - [x] [Deploy para **Vercel**](#deploy-para-vercel)
+* - [ ] [Deploy para **Heroku**](#deploy-para-Heroku)
 
 
 ## Criando sua base de dados
