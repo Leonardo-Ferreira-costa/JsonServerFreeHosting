@@ -5,6 +5,12 @@
       "title": "First post!",
       "content": "My first content!",
       "img": "test.jpg"
+    },
+    {
+      "id" : 1,
+      "title": "Second post!",
+      "content": "My second content!",
+      "img": "test1.jpg"
     }
   ],
 "comments":[
